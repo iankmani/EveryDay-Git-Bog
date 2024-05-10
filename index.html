@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everyday Git</title>
+</head>
+
+<body>
+    <h1>EVERYDAY GIT</h1>
+    <h2>What is Git</h2>
+    <p>Git is a distributed version control system used for tracking changes in source code during software development.
+        <br>It provides a structured and organized way to manage codebases, track changes, collaborate with others, and
+        maintain the integrity of projects over time. there are other version control system like git such as:
+    </p>
+    <ul>
+        <li>Subversion (SVN)</li>
+        <li>Mercurial</li>
+        <li>Perforce (helix core)</li>
+
+
+        <p>Sit back and enjoy as I take you through Git and Github</p>
+    </ul>
+
+    <h2>Installing Git</h2>
+    <p>Before we move to the next step, you need to Download and install Git on your machine. <br> You can check if it
+        is installed by going to your command prompt and writing <b><i>git -v</i></b> <br> To download and install Git,
+        begin by visiting the Git website at <a href="https://git-scm.com/.">https://git-scm.com/.</a><br> On the
+        website, locate the
+        prominent download button
+        and click on it to initiate the download of the Git installer tailored to your operating system. Once the
+        download completes, navigate to the downloaded installer file and double-click on it to launch the installation
+        process. Follow the prompts provided by the installation wizard, which may include options to customize the
+        installation according to your preferences. Generally, the default settings should suffice for most users. After
+        completing the installation, open a terminal or command prompt and type <mark>git --version</mark> to verify
+        that
+        Git was
+        installed correctly. This command will display the installed version of Git, confirming the successful
+        installation. With Git now installed on your computer, you're all set to begin using it for version control and
+        managing your projects' source code.
+
+    </p>
+    <h2>Configuring Git</h2>
+    <p>Configuring Git involves setting up your identity (name and email), configuring your editor preferences, and
+        possibly other settings like default branch names and aliases.</p>
+    <img src="config git.jpeg" alt="a pscreenshot of how git is configured">
+
+    <h2>Intializing a Git repository</h2>
+    <p>A Git repository is essentially a storage location where Git keeps all the metadata and objects that represent
+        the history and content of a project. It serves as the central hub for tracking changes to files, recording
+        their history, and enabling collaboration among multiple developers.</p>
+    <p>Open a terminal or command prompt and change to the directory where your project files are located. You can use
+        the <mark>cd command</mark> to navigate to the directory.</p>
+    <p>Once you're in the project directory, use the following command to initialize a Git repository <mark>Git
+            init</mark> as shown in the screenshot below:</p>
+    <img src="cd and git init.jpeg" alt="This is a screenshot showing how to initialize git">
+    <p>This command initializes an empty Git repository in the current directory, creating a hidden .git directory that
+        contains all of Git's metadata and configuration files.</p>
+    <img src="git in folder.jpeg" alt="screenshot showing git in folder after initializing">
+
+    <h2>Adding files to the staging area</h2>
+    <p> After initializing the repository, you can start adding your project files to it. You can do this using
+        the<mark> git add</mark> command followed by the names of the files you want to add.</p>
+    <p>But before we add, we need to make sure that the files to be added are correct by using the <mark>git
+            status</mark>command as shown in the screenshot below: </p>
+
+</body>
+
+</html>
