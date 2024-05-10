@@ -64,6 +64,58 @@
         the<mark> git add</mark> command followed by the names of the files you want to add.</p>
     <p>But before we add, we need to make sure that the files to be added are correct by using the <mark>git
             status</mark>command as shown in the screenshot below: </p>
+    <img src="git add.jpeg" alt="screenshot of adding files to be committed">
+    <p>the staging area in Git allows you to prepare and organize changes before committing them to the repository,
+        providing granular control over the versioning process and ensuring that only the desired modifications are
+        included in each commit. It's a powerful feature that helps maintain a clean and organized project history.
+    </p>
+    <p>tracked files are those that Git actively monitors and includes in the project's version history, while untracked
+        files are not yet part of the repository's history and require explicit action (such as git add)</p>
+
+    <h2>Comitting changes</h2>
+    <p> Once you've added your files, you can make your first commit to the repository using the<mark> git commit
+        </mark> command. This command records a snapshot of the current state of your project files in the repository's
+        history. You'll also need to provide a commit message to describe the changes you're committing.</p>
+    <p>Writing good commit messages is essential for maintaining a clear and informative project history. Here are some
+        best practices for crafting effective commit messages:
+    <ol>
+        <li> <b>Use a Descriptive Title:</b> Start your commit message with a brief, descriptive title that summarizes
+            the
+            changes in the commit. The title should be concise but informative, providing a high-level overview of the
+            commit's purpose.</li>
+        <li><b>Provide Context:</b> After the title, include a blank line followed by a more detailed description of the
+            changes.This description should provide context for the changes, explaining why they were made and how they
+            affect the project.</li>
+        <li><b>Keep It Concise:</b> While it's important to provide enough detail to understand the changes, avoid
+            writing
+            overly long commit messages. Aim for clarity and brevity, focusing on the most important aspects of the
+            commit.</li>
+        <li><b> Use Imperative Mood:</b> Write commit messages in the imperative mood, as if you're giving a command.
+            For
+            example, use phrases like "Add feature", "Fix bug", or "Update documentation". This helps maintain
+            consistency and clarity in commit messages.</li>
+        <li><b>Be Specific:</b> Be specific about what changes were made in the commit. Instead of vague statements like
+            "Updated code", provide specific details such as "Refactor authentication logic" or "Fix formatting in
+            README".</li>
+        <li> <b>Reference Issues or Tickets:</b> If your project uses issue tracking or ticketing systems (e.g., GitHub
+            issues,
+            Jira), include references to relevant issues or tickets in your commit messages. This helps tie commits to
+            specific tasks or problems and provides additional context for future readers.</li>
+        <li><b>Use Bullet Points for Lists:</b> If your commit includes a list of changes or tasks, use bullet points to
+            list
+            them clearly and concisely.</li>
+        <li><b>Proofread:</b> Before finalizing your commit message, take a moment to proofread it for typos, grammar
+            errors,
+            and clarity. A well-written commit message reflects positively on the quality of your work and makes it
+            easier for others to understand your changes.</li>
+    </ol>
+
+    </p>
+
+    <p>To view past commits in a Git repository, you can use the<mark> git log</mark> command.</p>
+    <p>To go back to a particular commit in Git, you can use the<mark> git checkout </mark> along with the commit hash
+        or a reference to the commit (such as a branch name or a tag).</p>
+    <p>below is a screenshot of how to go about it</p>
 
 </body>
 
